@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCDEF STAV s.r.o.</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-image: url('https://www.westbrick.cz/upload/3250-2108477616_v.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+        header {
+            background-color: rgba(255, 0, 0, 0.8);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(34, 34, 34, 0.8);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: rgba(51, 51, 51, 0.8);
+            border-left: 4px solid #ff0000;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 0, 0, 0.8);
+            color: #fff;
+            margin-top: 20px;
+        }
+        .footer-contacts {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .footer-contacts a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer-contacts a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABCDEF STAV s.r.o.</h1>
+        <p>Stavby na klíč a komplexní služby</p>
+    </header>
+
+    <div class="container">
+        <h2>O nás</h2>
+        <p>Poskytujeme komplexní služby od návrhu po realizaci staveb. Používáme kvalitní materiály od renomovaných výrobců a máme certifikát společnosti Caparol Czechia s.r.o. Každý projekt je pro nás jedinečný a na veškeré naše práce poskytujeme záruku kvality.</p>
+
+        <h2>Naše služby</h2>
+        <ul>
+            <li>Příprava pro stavbu</li>
+            <li>Hrubá stavba, zdivo, jádra, omítky, podlahové topení</li>
+            <li>Pokládky zámkové dlažby</li>
+            <li>Rekonstrukce historických budov a fasád</li>
+            <li>Sanace zdiva</li>
+            <li>Opravy krovů a střech</li>
+            <li>Rekonstrukce bytů a interiérů</li>
+            <li>Vodohospodářské stavby</li>
+        </ul>
+
+        <h2>Reference</h2>
+        <p>V minulých letech jsme spolupracovali a realizovali např.:</p>
+        <ul>
+            <li>Mateřská škola XYZ - Varnsdorf</li>
+            <li>Rekonstrukce staré celnice na hotel</li>
+            <li>Rekonstrukce učeben a toalet ZŠ, Varnsdorf</li>
+            <li>Rekonstrukce historické fasády RD, Varnsdorf</li>
+            <li>Oprava oplocení – ZŠ</li>
+            <li>A mnohé další</li>
+        </ul>
+
+        <h2>Fotogalerie</h2>
+        <div class="gallery">
+            <img src="https://www.westbrick.cz/upload/3250-2108477616_v.jpg" alt="Reference 1">
+            <img src="https://www.westbrick.cz/upload/3356-2110406102_v.jpg" alt="Reference 2">
+            <img src="https://www.westbrick.cz/upload/3250-2108477616_v.jpg" alt="Reference 3">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-contacts">
+            <p>Email: <a href="mailto:info@abcdefstav.cz">info@abcdefstav.cz</a></p>
+            <p>Telefon: <a href="tel:+420123456789">+420 123 456 789</a></p>
+            <p>Web: <a href="http://www.abcdefstav.cz">www.abcdefstav.cz</a></p>
+            <p>FB: <a href="http://www.facebook.com/abcdefstav">ABCDEF STAV</a></p>
+            <p>IG: <a href="http://www.instagram.com/abcdefstav">@abcdefstav</a></p>
+        </div>
+        <p>&copy; ABCDEF STAV s.r.o.</p>
+    </footer>
+</body>
+</html>
