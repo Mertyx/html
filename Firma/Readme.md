@@ -7,6 +7,8 @@ Webová stránka ABCDEF STAV s.r.o. je moderní, responzivní a přehledná, ide
 
 ![[Pasted image 20250209194126.png]]
 
-![[Pasted image 20250209195120.png]]![[Pasted image 20250209195131.png]]
+![[Pasted image 20250209195120.png]]
+
+![[Pasted image 20250209195131.png]]
 
 ![[Pasted image 20250209195144.png]]
